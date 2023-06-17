@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "3rdparty/*",
+        "*"
+      ]
+    },
+    "isolatedModules": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "removeComments": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "target": "ES2017",
+    "module": "commonjs",
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "ES6",
+      "es2017"
+    ]
+  }
+}
